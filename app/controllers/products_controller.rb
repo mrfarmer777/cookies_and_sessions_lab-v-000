@@ -2,6 +2,7 @@ class ProductsController < ApplicationController
 
   def index
     self.cart
+    @cart=self.cart
   end
 
   def add
