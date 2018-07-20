@@ -6,7 +6,7 @@
 
 
 <ul>
-  <% @cart.each do |item|%>
+  <% session[:cart].each do |item|%>
     <li>
       <%=item%>
     </li>
